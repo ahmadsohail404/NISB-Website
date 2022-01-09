@@ -1,0 +1,48 @@
+/* ---- reset ---- */
+body {
+  margin: 0;
+  font: normal 75% Arial, Helvetica, sans-serif;
+}
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+/* ---- particles.js container ---- */
+#particles-js {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #232741;
+  background-image: url("https://www.nisb.in/assets/images/Condensed---White.png");
+  background-repeat: no-repeat;
+  background-size: 20%;
+  background-position: 50% 50%;
+  z-index: 1;
+}
+background-image{
+    animation: blink 3s infinite;
+}
+
+.heading{
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    margin-top: 0;
+    border: #ffffff solid 2px;
+    display: inline;
+    margin-left: 615px;
+    margin-top: 5px;
+
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+}
+
+.a .heading:hover{
+    color: #ffc107;
+    
+}

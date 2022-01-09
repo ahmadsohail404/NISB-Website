@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/styles/content.css" />
+    <link rel="stylesheet" href="assets/styles/normalize.css" />
+    <!-- Using Font Awesome -->
+    <script defer src="assets/JS/all.js"></script>
+    <title>NISB</title>
+  </head>
+  <body>
+    <section>
+      <!-- NISB Navigation -->
+      <nav>
+        <a href="#" class="logo">NISB</a>
+        <ul>
+          <li><a href="#" class="active">HOME</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">EVENTS</a></li>
+          <li><a href="#">TEAM</a></li>
+          <li><a href="#">CHAPTERS & AFFINITY GROUPS</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+      </nav>
+
+      <!-- TEXT SECTION -->
+      <div class="text-container">
+        <p>Hello!</p>
+        <p data-tilt>&lt;We are N!SB /&gt;</p>
+        <p>
+          The National Institute of Engineering <br />
+          Mysuru.
+        </p>
+
+        <a href="#"><span>contact us</span></a>
+        <a href="https://nisb.in"><span>visit official website</span></a>
+      </div>
+
+      <!-- NISB IMAGE -->
+      <img
+        src="https://www.nisb.in/assets/images/Condensed---White.png"
+        alt="NISB Image"
+        class="nisb-image"
+      />
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <div class="about-container" data-tilt>
+      <!-- About Image -->
+      <img
+        src="https://www.nisb.in/assets/images/Condensed---White.png"
+        alt="About Image"
+        class="about-image"
+      />
+
+      <!-- About Text -->
+      <div class="about-text">
+        <p>ABOUT US</p>
+        <p>
+          NISB is the IEEE Student Branch of The National Institute of
+          Engineering.
+        </p>
+        <p>
+          NISB conducts various kinds of workshops, seminars, webinars,
+          technical talks, competitions, hackathons, and events througout the
+          semester to help its members for the all round development with the
+          advancing technology.
+        </p>
+        <p>
+          Having been active for a decade, we have been honoured and humbled
+          with numerous awards and accolades over time, including "The Best
+          Student Chapter" of Region 10 Bangalore. We organize and host a wide
+          range of technical workshops and events.
+        </p>
+        <!-- Button -->
+
+        <a href="#"><span>contact us</span></a>
+        <a href="https://nisb.in"><span>visit official website</span></a>
+      </div>
+    </div>
+    <!-- FOOTER -->
+    <footer>
+      <p>NIE IEEE STUDENT BRANCH</p>
+      <p>Follow us on socials</p>
+      <div class="social-icons">
+        <a href="https://instagram.com/ieee_nie" target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://nisb.in" target="_blank"
+          ><i class="fab fa-chrome"></i
+        ></a>
+        <a href="https://www.linkedin.com/company/nisb" target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="https://www.youtube.com/c/NIEIEEESTUDENTBRANCH" target="_blank"
+          ><i class="fab fa-youtube"></i
+        ></a>
+      </div>
+      <p>&lt; Made with ❤️ for NISB by Sohail /&gt;</p>
+    </footer>
+
+    <!-- Vanilla JS -->
+    <script type="text/javascript" src="assets/JS/vanilla-tilt.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelector(".your-element"), {
+        max: 25,
+        speed: 400,
+      });
+
+      VanillaTilt.init(document.querySelectorAll(".your-element"));
+    </script>
+  </body>
+</html>
